@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", serif;
+}
+
+h1,
+h2 {
+  font-family: "Fraunces", serif;
+}
+
+ul > li {
+  font-family: "Fraunces", serif;
+}
+
+html {
+  scroll-behavior: smooth; /* Kích hoạt cuộn mượt */
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+input[type="date"]::before {
+  content: attr(placeholder);
+  color: #9ca3af; /* Màu xám placeholder */
+}
+
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+  content: "" !important;
+}
+
+input[type="date"] {
+  color: transparent; /* Ẩn giá trị dd/mm/yyyy */
+}
+
+input[type="date"]:focus,
+input[type="date"]:valid {
+  color: #000; /* Hiện màu chữ khi có dữ liệu */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%; /* Đảm bảo pagination chiếm toàn bộ chiều rộng */
+  position: relative; /* Để có thể xử lý sự kiện hiển thị ẩn các phần tử */
+}
+
+.page-item {
+  list-style: none;
+}
+
+.page-link {
+  font-family: "Roboto", serif;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #333;
+  border: 2px solid #555;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.page-link:hover {
+  background-color: gray;
+  color: white;
+  border-color: gray;
+}
+
+.active .page-link {
+  background-color: gray;
+  color: white;
+  border-color: gray;
+}
+
+.prev-page,
+.next-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #333;
+  border: 2px solid #555;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  visibility: hidden; /* Ẩn theo mặc định */
+}
+
+.prev-page.show,
+.next-page.show {
+  visibility: visible; /* Hiển thị khi có nội dung */
+}
+
+.prev-page:hover,
+.next-page:hover {
+  background-color: gray;
+  color: white;
+  border-color: gray;
+}
+
+.pagination .prev-page.show {
+  margin-left:13%;
+}
+
+.pagination .next-page.show {
+  margin-right: 13%;
+}
+@media (min-width: 1024px) and (min-width: 1536px) {
+  .pagination .prev-page.show {
+    margin-left: 3.5%;
+  }
+
+  .pagination .next-page.show {
+    margin-right: 3.5%;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .pagination .prev-page.show {
+    margin-left: 5%; /* Điều chỉnh cho màn hình tablet */
+  }
+
+  .pagination .next-page.show {
+    margin-right: 5%; /* Điều chỉnh cho màn hình tablet */
+  }
+}
+@media (min-width: 1536px) {
+  .pagination .prev-page.show {
+    margin-left: 3%;
+  }
+
+  .pagination .next-page.show {
+    margin-right: 3%;
+  }
+}
