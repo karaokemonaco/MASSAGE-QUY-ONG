@@ -581,4 +581,21 @@ export const Member_Ship = [
     kg: "41",
     roud: "80-60-90",
   },
+
+  {
+    id: 39,
+    url: "/assets/NhanVien/100.jpg",
+    img_data: [
+      { url: "/assets/NhanVien/100.1.jpg" },
+      { url: "/assets/NhanVien/100.2.jpg" },
+    ],
+    name: "MS_100",
+
+    age: "2002",
+    desc: "Chuyên viên massage",
+    vote: "99",
+    ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
+    country: "Miền Nam",
+    roud: "80-60-90",
+  },
 ];
