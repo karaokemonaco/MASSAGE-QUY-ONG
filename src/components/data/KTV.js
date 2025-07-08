@@ -244,11 +244,11 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 15,
-    url: "/assets/NhanVien/41.jpeg",
+    id: 16,
+    url: "/assets/NhanVien/48.jpg",
     img_data: [
-      { url: "/assets/NhanVien/48_1.jpeg" },
-      { url: "/assets/NhanVien/48_2jpeg" },
+      { url: "/assets/NhanVien/48_1.jpg" },
+      { url: "/assets/NhanVien/48_2.jpeg" },
     ],
     name: "MS_48",
     age: "2006",
@@ -274,10 +274,9 @@ export const Member_Ship = [
     country: "Miền Bắc",
     kg: "41",
     roud: "80-60-90",
-  },
-  
+  }, 
   {
-    id: 19,
+    id: 18,
     url: "/assets/NhanVien/52.jpg",
     img_data: [
       { url: "/assets/NhanVien/52_1.jpg" },
@@ -293,7 +292,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 20,
+    id: 19,
     url: "/assets/NhanVien/55.jpeg",
     img_data: [
       { url: "/assets/NhanVien/55.jpeg" },
@@ -310,7 +309,7 @@ export const Member_Ship = [
   },
 
   {
-    id: 22,
+    id: 20,
     url: "/assets/NhanVien/61_2.jpg",
     img_data: [
       { url: "/assets/NhanVien/61_1.jpg" },
@@ -326,7 +325,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 23,
+    id: 21,
     url: "/assets/NhanVien/63.jpg",
     img_data: [
       { url: "/assets/NhanVien/63_1.jpg" },
@@ -342,7 +341,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 24,
+    id: 22,
     url: "/assets/NhanVien/64.jpg",
     img_data: [
       { url: "/assets/NhanVien/64_1.jpg" },
@@ -358,23 +357,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 25,
-    url: "/assets/NhanVien/65.jpg",
-    img_data: [
-      { url: "/assets/NhanVien/65.jpg" },
-      { url: "/assets/NhanVien/65.jpg" },
-    ],
-    name: "MS_65",
-    age: "2002",
-    desc: "Chuyên viên massage",
-    vote: "99",
-    ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
-    country: "Miền Bắc",
-    kg: "41",
-    roud: "80-60-90",
-  },
-  {
-    id: 26,
+    id: 23,
     url: "/assets/NhanVien/66_1.jpg",
     img_data: [
       { url: "/assets/NhanVien/66_1.jpg" },
@@ -390,23 +373,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 27,
-    url: "/assets/NhanVien/69.jpg",
-    img_data: [
-      { url: "/assets/NhanVien/69_1.jpg" },
-      { url: "/assets/NhanVien/69.jpg" },
-    ],
-    name: "MS_69",
-    age: "2002",
-    desc: "Chuyên viên massage",
-    vote: "99",
-    ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
-    country: "Miền Bắc",
-    kg: "41",
-    roud: "80-60-90",
-  },
-  {
-    id: 28,
+    id: 24,
     url: "/assets/NhanVien/77.jpg",
     img_data: [
       { url: "/assets/NhanVien/77.jpg" },
@@ -422,35 +389,19 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 29,
-    url: "/assets/NhanVien/79.jpg",
-    img_data: [
-      { url: "/assets/NhanVien/79.jpg" },
-      { url: "/assets/NhanVien/79.jpg" },
-    ],
-    name: "MS_79",
-    age: "2002",
-    desc: "Chuyên viên massage",
-    vote: "99",
-    ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
-    country: "Miền Bắc",
-    kg: "41",
-    roud: "80-60-90",
-  },
-  {
-    id: 30,
+    id: 25,
     url: "/assets/NhanVien/80.jpg",
     img_data: [
       { url: "/assets/NhanVien/80.jpg" },
       { url: "/assets/NhanVien/80.jpg" },
     ],
     name: "MS_80",
-    age: "2002",
+    age: "1997",
     desc: "Chuyên viên massage",
     vote: "99",
     ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
     country: "Miền Bắc",
-    kg: "41",
+    kg: "50",
     roud: "80-60-90",
   },
   {
@@ -525,22 +476,6 @@ export const Member_Ship = [
       { url: "/assets/NhanVien/93.jpg" },
     ],
     name: "MS_93",
-    age: "2002",
-    desc: "Chuyên viên massage",
-    vote: "99",
-    ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
-    country: "Miền Bắc",
-    kg: "41",
-    roud: "80-60-90",
-  },
-  {
-    id: 36,
-    url: "/assets/NhanVien/94.jpg",
-    img_data: [
-      { url: "/assets/NhanVien/94.jpg" },
-      { url: "/assets/NhanVien/94_1.jpg" },
-    ],
-    name: "MS_94",
     age: "2002",
     desc: "Chuyên viên massage",
     vote: "99",
