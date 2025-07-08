@@ -57,8 +57,8 @@ const JoinDigest = () => {
         <div className="md:w-[50%] w-[60%]">
           <img
             className="h-[350px] sm:h-[400px] md:h-[700px] w-full object-cover transform hover:scale-105 transition-all duration-300 ease-in-out"
-            src="/assets/GioiThieu/Dai.jpg"
-            alt="Lady Loading"
+            src="/assets/GioiThieu/1.jpg"
+            alt="Loading..."
           />
         </div>
 
@@ -67,14 +67,14 @@ const JoinDigest = () => {
            {/* Trang chủ - ảnh 2 */}
           <img
             className="h-[170px] sm:h-[300px] md:h-[340px] w-full object-cover transform hover:scale-105 transition-all duration-300 ease-in-out"
-            src="/assets/GioiThieu/Be1.jpg"
-            alt="Lady Loading"
+            src="/assets/GioiThieu/2.jpg"
+             alt="Loading..."
           />
            {/* Trang chủ - ảnh 3 */}
           <img
             className="h-[170px] sm:h-[300px] md:h-[340px] w-full object-cover transform hover:scale-105 transition-all duration-300 ease-in-out"
-            src="/assets/GioiThieu/Be2.jpg"
-            alt="Lady Loading"
+            src="/assets/GioiThieu/3.jpg"
+             alt="Loading..."
           />
         </div>
       </div>

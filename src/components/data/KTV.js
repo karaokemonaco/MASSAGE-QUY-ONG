@@ -582,7 +582,7 @@ export const Member_Ship = [
 
   {
     id: 39,
-    url: "/assets/NhanVien/100.jpg",
+    url: "/assets/NhanVien/102.jpg",
     img_data: [
       { url: "/assets/NhanVien/102.jpg" },
       { url: "/assets/NhanVien/102.jpg" },
@@ -598,7 +598,7 @@ export const Member_Ship = [
   },
   {
     id: 40,
-    url: "/assets/NhanVien/100.jpg",
+    url: "/assets/NhanVien/105.jpg",
     img_data: [
       { url: "/assets/NhanVien/105.jpg" },
       { url: "/assets/NhanVien/105.jpg" },
@@ -628,4 +628,5 @@ export const Member_Ship = [
     country: "Miền Nam",
     roud: "80-60-90",
   },
+ 
 ];

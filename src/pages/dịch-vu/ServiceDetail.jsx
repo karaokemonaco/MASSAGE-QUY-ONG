@@ -206,24 +206,25 @@ const DetailSercive = () => {
         </span>
         <div className="py-5">
           <div className="flex justify-between md:w-[80%] w-full flex-col md:flex-row mx-auto items-center">
-          <p className="w-[100%] justify-center items-center flex  md:hidden mb-5 text-xl  text-yellow-500  font-semibold">
-              {product.id === 2 || product.id === 4 ? (
-                <>
-                  <img
-                    src={
-                      product.id === 2
-                        ? "/assets/Logo/Seller.png"
-                        : "/assets/Logo/Vip.png"
-                    }
-                    alt={product.id === 2 ? "Seller Logo" : "VIP Logo"}
-                    className="inline-block mr-2 w-[30%]"
-                  />
-                  {product.time} phút
-                </>
-              ) : (
-                `${product.time} phút`
-              )}
-            </p>
+      <p className="w-[100%] justify-center items-center flex md:hidden mb-5 text-xl text-yellow-500 font-semibold">
+  {(product.id === 4 || product.id === 5) ? (
+    <>
+      <img
+        src={
+          product.id === 4
+            ? "/assets/Logo/3tr2.png"
+            : "/assets/Logo/4tr.png"
+        }
+        alt={`Logo ${product.id}`}
+        className="inline-block mr-2 w-[30%]"
+      />
+      {product.time} phút
+    </>
+  ) : (
+    `${product.time} phút`
+  )}
+</p>
+
             <div className="grid md:justify-start justify-center gap-4 md:w-[45%] w-full ">
               {/* Display only 3 titles on smaller screens, all on larger screens */}
               {(showAllImages || window.innerWidth >= 768
@@ -247,24 +248,25 @@ const DetailSercive = () => {
               &#124;
             </p>
 
-            <p className="w-[45%]  flex-col items-center hidden md:flex  lg:text-base xl:text-3xl text-sm text-yellow-500 mb-28  font-semibold">
-              {product.id === 2 || product.id === 4 ? (
-                <>
-                  <img
-                    src={
-                      product.id === 2
-                        ? "/assets/Logo/Seller.png"
-                        : "/assets/Logo/Vip.png"
-                    }
-                    alt={product.id === 2 ? "Seller Logo" : "VIP Logo"}
-                    className="inline-block mr-2 w-[50%]"
-                  />
-                  {product.time} phút
-                </>
-              ) : (
-                `${product.time} phút`
-              )}
-            </p>
+       <p className="w-[45%] flex-col items-center hidden md:flex lg:text-base xl:text-3xl text-sm text-yellow-500 mb-28 font-semibold">
+  {(product.id === 4 || product.id === 5) ? (
+    <>
+      <img
+        src={
+          product.id === 4
+            ? "/assets/Logo/3tr2.png"
+            : "/assets/Logo/4tr.png"
+        }
+        alt={`Logo ${product.id}`}
+        className="inline-block mr-2 w-[60%]"
+      />
+      {product.time} phút
+    </>
+  ) : (
+    `${product.time} phút`
+  )}
+</p>
+
           </div>
 
           {/* Toggle button for small screens */}
