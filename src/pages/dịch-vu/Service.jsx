@@ -80,9 +80,7 @@ const ServicePR = () => {
     <p className="xl:text-2xl text-xl text-center mt-5 font-bold bg-gradient-to-t from-yellow-900 to-yellow-300 text-transparent bg-clip-text">
       {item.name}
     </p>
-    <p className="lg:text-lg text-sm text-white text-center py-2 font-semibold">
-      {item.desc}
-    </p>
+   
     <div className="flex justify-center gap-3 items-center pb-5">
       <p className="lg:text-3xl text-xl bg-gradient-to-t from-yellow-900 to-yellow-300 text-transparent bg-clip-text font-bold lg:font-semibold">
         {item.price} VNĐ
