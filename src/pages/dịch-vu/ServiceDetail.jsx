@@ -387,9 +387,7 @@ const DetailSercive = () => {
           <p className="xl:text-2xl text-xl text-center font-bold bg-gradient-to-t from-yellow-900 to-yellow-300 text-transparent bg-clip-text">
             {relatedItem.name}
           </p>
-          <p className="lg:text-base text-sm text-white text-center py-2 font-semibold flex-1">
-            {relatedItem.desc}
-          </p>
+        
         </div>
         <div className="flex justify-center gap-3 items-center pb-5">
           <p className="xl:text-2xl lg:text-xl text-lg bg-gradient-to-t from-yellow-900 to-yellow-300 text-transparent bg-clip-text font-bold lg:font-semibold">
