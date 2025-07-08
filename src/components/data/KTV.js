@@ -180,11 +180,11 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 13,
+    id: 12,
     url: "/assets/NhanVien/36.jpg",
     img_data: [
-      { url: "/assets/NhanVien/36_1.jpg" },
-      { url: "/assets/NhanVien/36_2.jpg" },
+      { url: "/assets/NhanVien/36.jpg" },
+      { url: "/assets/NhanVien/36.jpg" },
     ],
     name: "MS_36",
     age: "1997",
@@ -198,7 +198,10 @@ export const Member_Ship = [
   {
     id: 13,
     url: "/assets/NhanVien/38.jpg",
-    img_data: [],
+    img_data: [
+      { url: "/assets/NhanVien/38.jpg" },
+      { url: "/assets/NhanVien/38.jpg" },
+    ],
     name: "MS_38",
     age: "2002",
     desc: "Chuyên viên massage",

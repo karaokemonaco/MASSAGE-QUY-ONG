@@ -364,44 +364,46 @@ const DetailSercive = () => {
           DỊCH VỤ LIÊN QUAN
         </span>
         <div className="md:flex-row flex-col flex gap-5 overflow-x-auto w-[90%] md:w-[95%] xl:w-[80%] mx-auto">
-          {relatedServices.map((relatedItem) => (
-            <div key={relatedItem.id} className="w-[100%] md:w-[35%] mx-auto">
-              {/* Sử dụng Link thay vì a */}
-              <Link
-                to={`/service/${relatedItem.id}`}
-                className="flex relative flex-col gap-2 hover:scale-[0.95] transition-all duration-500 group"
-                style={{
-                  borderWidth: "2px",
-                  borderImage: "linear-gradient(90deg, #FFD700, #A37D2B) 1",
-                  borderStyle: "solid",
-                }}
-              >
-                <img
-                  src={relatedItem.url}
-                  alt={relatedItem.name}
-                  className="w-full h-[250px] object-cover border border-yellow-600 mb-5"
-                />
-                <div className="absolute italic inset-0 bg-black bg-opacity-60 text-white text-lg font-semibold flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500">
-                  Xem chi tiết
-                </div>
-                <p className="xl:text-2xl text-xl text-center  font-bold bg-gradient-to-t from-yellow-900 to-yellow-300 text-transparent bg-clip-text">
-                  {relatedItem.name}
-                </p>
-                <p className="lg:text-base text-sm text-white text-center py-2 font-semibold">
-                  {relatedItem.desc}
-                </p>
-                <div className="flex justify-center gap-3  items-center pb-5">
-                  <p className="xl:text-2xl lg:text-xl text-lg bg-gradient-to-t from-yellow-900 to-yellow-300 text-transparent bg-clip-text font-bold lg:font-semibold">
-                    {relatedItem.price} VNĐ
-                  </p>
-                  <p className="xl:text-lg text-sm italic text-white line-through">
-                    {relatedItem.price_sale} VNĐ
-                  </p>
-                </div>
-              </Link>
-            </div>
-          ))}
+  {relatedServices.map((relatedItem) => (
+    <div key={relatedItem.id} className="w-[100%] md:w-[35%] mx-auto">
+      <Link
+        to={`/service/${relatedItem.id}`}
+        className="flex flex-col h-full relative gap-2 hover:scale-[0.95] transition-all duration-500 group"
+        style={{
+          borderWidth: "2px",
+          borderImage: "linear-gradient(90deg, #FFD700, #A37D2B) 1",
+          borderStyle: "solid",
+        }}
+      >
+        <div className="flex-1 flex flex-col">
+          <img
+            src={relatedItem.url}
+            alt={relatedItem.name}
+            className="w-full h-[250px] object-cover border border-yellow-600 mb-5"
+          />
+          <div className="absolute italic inset-0 bg-black bg-opacity-60 text-white text-lg font-semibold flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500">
+            Xem chi tiết
+          </div>
+          <p className="xl:text-2xl text-xl text-center font-bold bg-gradient-to-t from-yellow-900 to-yellow-300 text-transparent bg-clip-text">
+            {relatedItem.name}
+          </p>
+          <p className="lg:text-base text-sm text-white text-center py-2 font-semibold flex-1">
+            {relatedItem.desc}
+          </p>
         </div>
+        <div className="flex justify-center gap-3 items-center pb-5">
+          <p className="xl:text-2xl lg:text-xl text-lg bg-gradient-to-t from-yellow-900 to-yellow-300 text-transparent bg-clip-text font-bold lg:font-semibold">
+            {relatedItem.price} VNĐ
+          </p>
+          <p className="xl:text-lg text-sm italic text-white line-through">
+            {relatedItem.price_sale} VNĐ
+          </p>
+        </div>
+      </Link>
+    </div>
+  ))}
+</div>
+
       </div>
     </div>
   );
