@@ -186,17 +186,21 @@ const ContactForm = () => {
             <option value="" disabled>
               Chọn dịch vụ
             </option>
-            <option value="QUÝ ÔNG ĐẲNG CẤP - 2.000.000vnđ">
-              QUÝ ÔNG ĐẲNG CẤP - 2.000.000vnđ
+            
+            <option value="QUÝ ÔNG HOÀN HẢO - 1.600.000 vnđ">
+              QUÝ ÔNG HOÀN HẢO - 1.600.000 vnđ
             </option>
-            <option value="QUÝ ÔNG HOÀN HẢO - 1.500.000vnđ">
-              QUÝ ÔNG HOÀN HẢO - 1.500.000vnđ
+            <option value="QUÝ ÔNG ĐẲNG CẤP - 2.200.000 vnđ">
+              QUÝ ÔNG ĐẲNG CẤP - 2.200.000 vnđ
             </option>
-            <option value="QUÝ ÔNG HỘI TỤ - 2.300.000vnđ">
-              QUÝ ÔNG HỘI TỤ - 2.300.000vnđ
+            <option value="QUÝ ÔNG HỘI TỤ - 2.500.000 vnđ">
+              QUÝ ÔNG HỘI TỤ - 2.500.000 vnđ
             </option>
-            <option value="QUÝ ÔNG QUYỀN LỰC - 3.000.000vnđ">
-              QUÝ ÔNG QUYỀN LỰC - 3.000.000vnđ
+            <option value="QUÝ ÔNG QUYỀN LỰC - 3.200.000 vnđ">
+              QUÝ ÔNG QUYỀN LỰC - 3.200.000 vnđ
+            </option>
+             <option value="QUÝ ÔNG SÀNH ĐIỆU - 4.000.000 vnđ">
+              QUÝ ÔNG SÀNH ĐIỆU - 4.000.000 vnđ
             </option>
           </select>
           <input

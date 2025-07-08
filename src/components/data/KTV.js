@@ -85,13 +85,13 @@ export const Member_Ship = [
     roud: "80-60-90",
   }, {
     id: 6,
-    url: "/assets/NhanVien/09.jpg",
+    url: "/assets/NhanVien/15.jpg",
     img_data: [
-      { url: "/assets/NhanVien/09.jpg" },
-      { url: "/assets/NhanVien/09.jpg" },
+      { url: "/assets/NhanVien/15.jpg" },
+      { url: "/assets/NhanVien/15_1.jpg" },
     ],
     name: "MS_15",
-    age: "2002",
+    age: "2000",
     desc: "Chuyên viên massage",
     vote: "99",
     ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
@@ -100,7 +100,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 8,
+    id: 7,
     url: "/assets/NhanVien/16_1.jpg",
     img_data: [
       { url: "/assets/NhanVien/16_1.jpg" },
@@ -116,7 +116,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 9,
+    id: 8,
     url: "/assets/NhanVien/18.jpg",
     img_data: [
       { url: "/assets/NhanVien/18.jpg" },
@@ -132,7 +132,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 10,
+    id: 9,
     url: "/assets/NhanVien/19_1.jpg",
     img_data: [
       { url: "/assets/NhanVien/19_1.jpg" },
@@ -148,7 +148,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 11,
+    id: 10,
     url: "/assets/NhanVien/22.jpg",
     img_data: [
       { url: "/assets/NhanVien/22_1.jpg" },
@@ -164,7 +164,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 12,
+    id: 11,
     url: "/assets/NhanVien/26.jpg",
     img_data: [
       { url: "/assets/NhanVien/26_1.jpg" },
@@ -172,6 +172,22 @@ export const Member_Ship = [
     ],
     name: "MS_26",
     age: "2002",
+    desc: "Chuyên viên massage",
+    vote: "99",
+    ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
+    country: "Miền Bắc",
+    kg: "41",
+    roud: "80-60-90",
+  },
+  {
+    id: 13,
+    url: "/assets/NhanVien/36.jpg",
+    img_data: [
+      { url: "/assets/NhanVien/36_1.jpg" },
+      { url: "/assets/NhanVien/36_2.jpg" },
+    ],
+    name: "MS_36",
+    age: "1997",
     desc: "Chuyên viên massage",
     vote: "99",
     ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
