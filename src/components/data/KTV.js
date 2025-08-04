@@ -135,22 +135,6 @@ export const Member_Ship = [
   },
   {
     id: 9,
-    url: "/assets/NhanVien/26.jpg",
-    img_data: [
-      { url: "/assets/NhanVien/26_1.jpg" },
-      { url: "/assets/NhanVien/26.jpg" },
-    ],
-    name: "MS_26",
-    age: "2002",
-    desc: "Chuyên viên massage",
-    vote: "99",
-    ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
-    country: "Miền Bắc",
-    kg: "41",
-    roud: "80-60-90",
-  },
-  {
-    id: 10,
     url: "/assets/NhanVien/36.jpg",
     img_data: [
       { url: "/assets/NhanVien/36.jpg" },
@@ -166,7 +150,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 11,
+    id: 10,
     url: "/assets/NhanVien/38.jpg",
     img_data: [
       { url: "/assets/NhanVien/38.jpg" },
@@ -182,7 +166,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 12,
+    id: 11,
     url: "/assets/NhanVien/40.jpeg",
     img_data: [
       { url: "/assets/NhanVien/40_2.jpeg" },
@@ -198,7 +182,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 13,
+    id: 12,
     url: "/assets/NhanVien/41.jpeg",
     img_data: [
       { url: "/assets/NhanVien/41_1.jpeg" },
@@ -214,7 +198,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 14,
+    id: 13,
     url: "/assets/NhanVien/48.jpg",
     img_data: [
       { url: "/assets/NhanVien/48_1.jpg" },
@@ -230,7 +214,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 15,
+    id: 14,
     url: "/assets/NhanVien/50.jpg",
     img_data: [
       { url: "/assets/NhanVien/50_1.jpg" },
@@ -246,7 +230,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   }, 
   {
-    id: 16,
+    id: 15,
     url: "/assets/NhanVien/55.jpeg",
     img_data: [
       { url: "/assets/NhanVien/55.jpeg" },
@@ -263,7 +247,7 @@ export const Member_Ship = [
   },
 
   {
-    id: 17,
+    id: 16,
     url: "/assets/NhanVien/61_2.jpg",
     img_data: [
       { url: "/assets/NhanVien/61_1.jpg" },
@@ -279,7 +263,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 18,
+    id: 17,
     url: "/assets/NhanVien/62.jpg",
     img_data: [
       { url: "/assets/NhanVien/62.jpg" },
@@ -296,7 +280,7 @@ export const Member_Ship = [
   },
  
   {
-    id: 19,
+    id: 18,
     url: "/assets/NhanVien/64.5.jpg",
     img_data: [
       { url: "/assets/NhanVien/64_1.jpg" },
@@ -312,7 +296,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 20,
+    id: 19,
     url: "/assets/NhanVien/66_1.jpg",
     img_data: [
       { url: "/assets/NhanVien/66_1.jpg" },
@@ -328,7 +312,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 21,
+    id: 20,
     url: "/assets/NhanVien/77.5.jpg",
     img_data: [
       { url: "/assets/NhanVien/77.jpg" },
@@ -344,7 +328,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 22,
+    id: 21,
     url: "/assets/NhanVien/80.jpg",
     img_data: [
       { url: "/assets/NhanVien/80.jpg" },
@@ -360,7 +344,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 23,
+    id: 22,
     url: "/assets/NhanVien/86.jpg",
     img_data: [
       { url: "/assets/NhanVien/86_1.jpg" },
@@ -376,7 +360,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 24,
+    id: 23,
     url: "/assets/NhanVien/88.jpg",
     img_data: [
       { url: "/assets/NhanVien/88.jpg" },
@@ -392,7 +376,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 25,
+    id: 24,
     url: "/assets/NhanVien/89.jpg",
     img_data: [
       { url: "/assets/NhanVien/89.jpg" },
@@ -408,7 +392,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 26,
+    id: 25,
     url: "/assets/NhanVien/92.jpg",
     img_data: [
       { url: "/assets/NhanVien/92.jpg" },
@@ -424,7 +408,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 27,
+    id: 26,
     url: "/assets/NhanVien/93_1.jpg",
     img_data: [
       { url: "/assets/NhanVien/93_.jpg" },
@@ -440,7 +424,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 28,
+    id: 27,
     url: "/assets/NhanVien/95.jpg",
     img_data: [
       { url: "/assets/NhanVien/95.jpg" },
@@ -456,7 +440,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 29,
+    id: 28,
     url: "/assets/NhanVien/97.jpg",
     img_data: [
       { url: "/assets/NhanVien/97.1.jpg" },
@@ -472,7 +456,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 30,
+    id: 29,
     url: "/assets/NhanVien/98.jpg",
     img_data: [
       { url: "/assets/NhanVien/98.jpg" },
@@ -488,7 +472,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 31,
+    id: 30,
     url: "/assets/NhanVien/99.jpg",
     img_data: [
       { url: "/assets/NhanVien/99.1.jpg" },
@@ -505,7 +489,7 @@ export const Member_Ship = [
   },
 
   {
-    id: 32,
+    id: 31,
     url: "/assets/NhanVien/102.jpg",
     img_data: [
       { url: "/assets/NhanVien/102.jpg" },
@@ -521,7 +505,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 33,
+    id: 32,
     url: "/assets/NhanVien/105.jpg",
     img_data: [
       { url: "/assets/NhanVien/105.jpg" },
@@ -537,7 +521,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 34,
+    id: 33,
     url: "/assets/NhanVien/106.jpg",
     img_data: [
       { url: "/assets/NhanVien/106.jpg" },
@@ -553,7 +537,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 35,
+    id: 34,
     url: "/assets/NhanVien/108.jpg",
     img_data: [
       { url: "/assets/NhanVien/108.jpg" },
@@ -568,24 +552,9 @@ export const Member_Ship = [
     country: "Miền Nam",
     roud: "80-60-90",
   },
-  {
-    id: 36,
-    url: "/assets/NhanVien/109.jpg",
-    img_data: [
-      { url: "/assets/NhanVien/109.jpg" },
-      { url: "/assets/NhanVien/109.jpg" },
-    ],
-    name: "MS_109",
 
-    age: "2000",
-    desc: "Chuyên viên massage",
-    vote: "99",
-    ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
-    country: "Miền Nam",
-    roud: "80-60-90",
-  },
   {
-    id: 37,
+    id: 35,
     url: "/assets/NhanVien/112.jpg",
     img_data: [
       { url: "/assets/NhanVien/112.jpg" },
@@ -601,7 +570,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 38,
+    id: 36,
     url: "/assets/NhanVien/113.jpg",
     img_data: [
       { url: "/assets/NhanVien/113.jpg" },
@@ -617,7 +586,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 39,
+    id: 37,
     url: "/assets/NhanVien/115.jpg",
     img_data: [
       { url: "/assets/NhanVien/115.jpg" },
@@ -633,7 +602,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 40,
+    id: 38,
     url: "/assets/NhanVien/116.jpg",
     img_data: [
       { url: "/assets/NhanVien/116.jpg" },
@@ -649,7 +618,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 41,
+    id: 39,
     url: "/assets/NhanVien/117.jpg",
     img_data: [
       { url: "/assets/NhanVien/117.jpg" },
@@ -665,7 +634,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 42,
+    id: 40,
     url: "/assets/NhanVien/118.jpg",
     img_data: [
       { url: "/assets/NhanVien/118.jpg" },
@@ -681,7 +650,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
    {
-    id: 43,
+    id: 41,
     url: "/assets/NhanVien/119.jpg",
     img_data: [
       { url: "/assets/NhanVien/119.jpg" },
@@ -697,7 +666,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 44,
+    id: 42,
     url: "/assets/NhanVien/121.jpg",
     img_data: [
       { url: "/assets/NhanVien/121.jpg" },
@@ -713,7 +682,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 45,
+    id: 43,
     url: "/assets/NhanVien/123.jpg",
     img_data: [
       { url: "/assets/NhanVien/123.jpg" },
