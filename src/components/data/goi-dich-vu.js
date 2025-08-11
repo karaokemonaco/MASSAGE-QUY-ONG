@@ -262,6 +262,4 @@ export const Products_Service = [
     vote: "98",
   },
 
-  
-
 ];
