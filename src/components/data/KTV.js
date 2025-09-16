@@ -572,6 +572,23 @@ export const Member_Ship = [
   
   {
     id: 36,
+    url: "/assets/NhanVien/114.jpg",
+    img_data: [
+      { url: "/assets/NhanVien/114.jpg" },
+      { url: "/assets/NhanVien/114.jpg" },
+    ],
+    name: "MS_114",
+
+    age: "2002",
+    desc: "Chuyên viên massage",
+    vote: "99",
+    ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
+    country: "Miền Nam",
+    roud: "80-60-90",
+  },
+  
+  {
+    id: 37,
     url: "/assets/NhanVien/115.jpg",
     img_data: [
       { url: "/assets/NhanVien/115.jpg" },
@@ -587,7 +604,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 37,
+    id: 38,
     url: "/assets/NhanVien/116.jpg",
     img_data: [
       { url: "/assets/NhanVien/116.jpg" },
@@ -603,7 +620,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 38,
+    id: 39,
     url: "/assets/NhanVien/117.jpg",
     img_data: [
       { url: "/assets/NhanVien/117.jpg" },
@@ -619,7 +636,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
   {
-    id: 39,
+    id: 40,
     url: "/assets/NhanVien/118.jpg",
     img_data: [
       { url: "/assets/NhanVien/118.jpg" },
@@ -635,7 +652,7 @@ export const Member_Ship = [
     roud: "80-60-90",
   },
    {
-    id: 40,
+    id: 41,
     url: "/assets/NhanVien/119.jpg",
     img_data: [
       { url: "/assets/NhanVien/119.jpg" },
@@ -652,7 +669,7 @@ export const Member_Ship = [
   },
   
   {
-    id: 41,
+    id: 42,
     url: "/assets/NhanVien/123.jpg",
     img_data: [
       { url: "/assets/NhanVien/123.jpg" },
@@ -661,6 +678,40 @@ export const Member_Ship = [
     name: "MS_123",
 
     age: "2005",
+    desc: "Chuyên viên massage",
+    vote: "99",
+    ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
+    country: "Miền Nam",
+    roud: "80-60-90",
+  },
+  
+  {
+    id: 43,
+    url: "/assets/NhanVien/124.jpg",
+    img_data: [
+      { url: "/assets/NhanVien/124.jpg" },
+      { url: "/assets/NhanVien/124.jpg" },
+    ],
+    name: "MS_124",
+
+    age: "2002",
+    desc: "Chuyên viên massage",
+    vote: "99",
+    ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
+    country: "Miền Bắc",
+    roud: "80-60-90",
+  },
+
+  {
+    id: 44,
+    url: "/assets/NhanVien/132.jpg",
+    img_data: [
+      { url: "/assets/NhanVien/132.jpg" },
+      { url: "/assets/NhanVien/132.jpg" },
+    ],
+    name: "MS_132",
+
+    age: "2002",
     desc: "Chuyên viên massage",
     vote: "99",
     ex: "5 năm kinh nghiệm - Đào tạo bới Massage AIB",
