@@ -35,7 +35,7 @@ export const Products_Service = [
      
       {
         url: "/assets/GoiCombo/combo2.jpg",
-        title: "Thư giãn đỉnh cao - 2 shot (HJ,BJ,CIA)",
+        title: "Thư giãn đỉnh cao - 2 shot",
       },
       {
         url: "/assets/GoiCombo/combo1.jpg",
@@ -91,7 +91,7 @@ export const Products_Service = [
      
       {
         url: "/assets/GoiCombo/combo2.jpg",
-        title: "Thư giãn đỉnh cao - 2 KTV (HJ,BJ,69,CIA)",
+        title: "Thư giãn đỉnh cao - 2 KTV",
       },
       {
         url: "/assets/GoiCombo/combo1.jpg",
@@ -146,7 +146,7 @@ export const Products_Service = [
       },
       {
         url: "/assets/GoiCombo/combo2.jpg",
-        title: "Thư giãn hoàn hảo (HJ,BJ)",
+        title: "Thư giãn hoàn hảo",
       },
     ],
 
@@ -187,7 +187,7 @@ export const Products_Service = [
     
       {
         url: "/assets/GoiCombo/combo2.jpg",
-        title: "Thư giãn hoàn hảo (HJ,BJ)",
+        title: "Thư giãn hoàn hảo",
       },
        {
         url: "/assets/GoiCombo/combo1.jpg",
@@ -240,7 +240,7 @@ export const Products_Service = [
       
       {
         url: "/assets/GoiCombo/combo1.jpg",
-        title: "Thư giãn thăng hoa (HJ,BJ,CIA)",
+        title: "Thư giãn thăng hoa",
       },
       {
         url: "/assets/GoiCombo/combo2.jpg",
